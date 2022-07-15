@@ -1,0 +1,31 @@
+h1  {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: orange;
+}
+ul  {
+    background-color: rgb(162, 231, 208);
+}    
+.paragrafo-e-lista {
+    background-color: rgb(165, 165, 192);
+}
+p   {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: oblique;
+    line-height: 12mm;
+    text-align: center;
+    text-decoration: underline;
+}
+body    {
+    font-size: 16px;
+}
+ #amarelo    {
+    background-color: yellow; 
+ }
+ #vermelho  {
+    background-color: red;
+ }
+ #marrom    {
+    background-color: brown;
+ }

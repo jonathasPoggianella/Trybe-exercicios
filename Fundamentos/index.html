@@ -95,12 +95,35 @@
           listaItens.innerHTML = arrayNumeros[i];
           lista1.appendChild(listaItens);
       }
+      // 9
       let h31 = document.createElement('h3')
       let h32 = document.createElement('h3')
       let h33 = document.createElement('h3')
       main.appendChild(h31);
       main.appendChild(h32);
       main.appendChild(h33);
+
+      // Parte 2
+      // 1
+      h1.className = 'title';
+      
+      // 2
+      h31.className = 'description';
+      h32.className = 'description';
+      h33.className = 'description';
+
+      // 3
+      main.removeChild(sectionLeft);
+      
+      // 4
+      sectionRight.style.marginRight = 'auto';
+      
+      // 5
+      sectionCenter.parentNode.style.backgroundColor = 'green';
+
+      // 6
+      lista1.lastChild.remove();
+      lista1.lastChild.remove();
       </script>
   </body>
 </html>
